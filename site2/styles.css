@@ -1,0 +1,48 @@
+h1{color: orange;
+background-color: slategray;
+font-size: 20px;
+text-decoration: underline;
+font-family:arial;
+text-align: center;
+}
+form{
+    color:chocolate;
+    /* background-color: red;
+    border-style: dotted;
+    border-width: 4px; */
+    border: 4px dotted red;
+    border-bottom: dashed;
+    text-shadow: 8px 8px #F9E4E9;
+    display: block;
+}
+input{
+    display: block;
+    background-color: blueviolet;
+}
+textarea{
+    background-color: aqua;
+}
+div.d1.d2{
+    border: 2px solid red;
+margin: 20px;
+padding: 20px;
+text-align: center;
+text-decoration: underline;
+}
+.d2{
+border: 2px solid rebeccapurple;
+margin: 20px;
+padding: 20px;
+font-size: larger;
+text-shadow: 2px 2px green;
+}
+#d2{
+    border: 2px solid red;
+margin: 20px;
+padding: 20px;
+font-size: larger;
+text-shadow: 2px 2px red;
+}
+div .a{
+    color: aqua;
+}
