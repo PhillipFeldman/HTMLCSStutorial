@@ -46,3 +46,39 @@ text-shadow: 2px 2px red;
 div .a{
     color: aqua;
 }
+a[href]{
+    display: block;
+}
+a[href="https://www.google.com"]{
+    background-color: green;
+    color:yellow
+}
+/*It seems there's regex in css*/
+a[href*="youtube"]{
+    background-color: black;
+    color:red
+}
+
+div.d3{
+    color: yellowgreen;
+    border: 1px solid grey;
+    margin: 40px;
+    font-weight: bold;
+}
+div.d3 p{
+    border:inherit;
+    margin: inherit;
+    color: inherit;
+    /*
+    delete line above for crimson lorem
+    */
+}
+p{
+    color:crimson
+}
+div p.a{
+    color:black;
+    border: 1px solid grey;
+    margin: 40px;
+    font-weight: bold;
+}
