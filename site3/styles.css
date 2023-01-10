@@ -1,3 +1,23 @@
-h1{
+.front{
+    position: fixed; left: 0; top: 0;
+}
+.front.banner.welcome div{
+    position: static; z-index: 98;
+}
+
+li{
+    min-width: 100%;
+    position: relative; left: 40px; top: 40px;
+    background-color: red;
+    
+}
+h1.front{
+    position: fixed; left:0px; top: -10px;
+    z-index: 99;
     color:cadetblue
+}
+footer.front{
+    color:magenta;
+    position: fixed; left:200px; top: 5px;
+    z-index: 99;
 }
